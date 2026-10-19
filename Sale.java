@@ -5,10 +5,10 @@ public class Sale {
 	int id;
 	String employeeName;
 	String region;
-	float amount;
+	double amount;
 
 
-	public Sale(int id, String employeeName, String region, float amount) {
+	public Sale(int id, String employeeName, String region, double amount) {
 		this.id = id;
 		this.employeeName = employeeName;
 		this.region = region;
@@ -27,7 +27,7 @@ public class Sale {
 		return region;
 	}
 
-	public float getAmount() {
+	public double getAmount() {
 		return amount;
 	}
 
